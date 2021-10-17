@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello Sangyeop</title>
+    
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="./css/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+
+
+</head> 
+<header>
+  <img class="w3-margin w3-image" width="150px" height="150px" src="./images/cherry.jpg" alt="cherry">
+    <span class="w3-margin w3-padding-large w3-margin-top">김상엽</span> 
+</header> 
+<style> 
+    * {font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif}
+    header {text-align: center;}
+    header span {color:pink;font-size: 100px;}
+    nav li{
+        list-style: none;text-align: center;
+     }
+    body{max-width: 980px; margin: 0 auto;}
+    article li{list-style: none;text-size-adjust: 50;} 
+    table {background-color: pink;}
+    ul {list-style-type: none;}
+   
+    section{display: flex;}
+    article{width: 75%; flex: 1; }
+     aside{width: 25%; flex: 1;}
+    
+   
+
+    section ul h1 {text-align: center;  font-size: 30px; background-color: pink;color: rgb(104, 96, 96); letter-spacing: 10px;}
+    section li {text-align: center;  font-size: 30px; background-color: pink;color: rgb(104, 96, 96); letter-spacing: 10px;}
+    section p{font-size: 20px;}
+
+ 
+    </style>
+ 
+<nav>
+    <ul class="w3-bar w3-border w3-center w3-margin-top w3-pink w3-small w3-margin">
+		<li><a class="w3-bar-item w3-hover-red" href="#sogae">소갯말</a></li>
+        <li><a class="w3-bar-item w3-hover-blue" href="#food" >좋아하는 음식</a></li>
+        <li><a class="w3-bar-item w3-hover-indigo"href="#hobby">취미</a></li>
+        <li><a class="w3-bar-item w3-hover-black"href="#lived" >고향과 사는곳</a></li>
+        <li><a class="w3-bar-item w3-hover-green" href="#future">향후계획</a></li>
+        <li><a class="w3-bar-item w3-hover-yellow" href="#grow" >프로필</a></li>
+    </nav>   
+<body> 
+    <div class="flex-container">
+    <section id="main" class="w3-left w3-container w3-margin-top">
+ <article class="w3-left">
+
+ 
+    <ul>
+        
+        
+        <h1>사진</h1>
+        <div id="myface"></div>
+        <img width="400" height="400" src="./images/yubs.jpg" alt="Yubs">
+        <img width="400" height="400" src="./images/cherryme.jpg" alt="cherryme">
+        <div id="sogae"></div>
+    
+    
+        <li>소갯말</li>
+        <p>안녕하세요 동아대학교 경영정보학과에 재학중인 23살 김상엽입니다 저에대한 소개를 해보겠습니다</p>
+    <br><br><br><br><br><br>
+        <div id="food"></div>
+        
+        <li>좋아하는 음식</li>       
+         <img width="300" height="300"src="./images/gogi.jpg" alt="gogi">
+        <p>온 세상에 있는 모든 고기를 좋아합니다</p> <br><br><br><br><br><br><br><br><br><br><br><br>
+    
+        <div id="hobby"></div>
+        <li>취미</li>
+    <p>제 취미는 재즈 음악 감상입니다 </p>
+    <p>재즈를 들으며 독서를 하면 흥분되었던 마음이 진정됩니다</p>
+    <iframe width="400" height="400" src="https://www.youtube.com/embed/le1QF3uoQNg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>
+    Theme From New York, New York이라는 곡입니다 마치 뉴욕공항에 도착한 느낌을 줍니다.
+ <br><br><br><br><br><br><br><br><br><br><br><br>    
+<div id="lived"></div>
+    <li>고향과 사는곳</li>
+    <img width="440" height="440" src="./images/milyang.jpg" alt="milyang">
+    <p>경상남도 밀양시에서 자라왔고 현재 자갈치에서 거주중입니다</p>
+    <br><br><br><br><br><br><br><br><br><br><br><br>
+    <div id="future"></div>
+    <li>향후 계획</li>
+    <p>코로나가 잠잠해지면 호주로 워킹 홀리데이를 떠날 것 입니다</p>
+<br><br><br>
+<div id="thanks"></div>
+    <li>봐주셔서 감사합니다</li>
+              <video width=:"300" height="300" controls autoplay loop src="./media/myface.mp4"></video>
+    
+    
+            </article>  
+            
+        
+            <aside class="right" class="w3-container w3-cell">
+            <div id="login" class="w3-container w3-right"></div> 
+                <h2>로그인 하세요</h2>
+                <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-pink w3-large">Login</button>
+              
+                <div id="id01" class="w3-modal">
+                  <div class="w3-modal-content w3-card-4 w3-animate-zoom" style="max-width:600px">
+              
+                    <div class="w3-center"><br>
+                      <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-xlarge w3-hover-red w3-display-topright" title="Close Modal">&times;</span>
+                      <img src="./images/yubs.jpg" alt="loginyubs" style="width:30%" class="w3-circle w3-margin-top">
+                    </div>
+              
+                    <form class="w3-container" action="/action_page.php">
+                      <div class="w3-section">
+                        <label><b>Username</b></label>
+                        <input class="w3-input w3-border w3-margin-bottom" type="text" placeholder="Enter Username" name="usrname" required>
+                        <label><b>Password</b></label>
+                        <input class="w3-input w3-border" type="password" placeholder="Enter Password" name="psw" required>
+                        <button class="w3-button w3-block w3-green w3-section w3-padding" type="submit">Login</button>
+                        <input class="w3-check w3-margin-top" type="checkbox" checked="checked"> Remember me
+                      </div>
+                    </form>
+              
+                    <div class="w3-container w3-border-top w3-padding-16 w3-light-grey">
+                      <button onclick="document.getElementById('id01').style.display='none'" type="button" class="w3-button w3-red">Cancel</button>
+                      <span class="w3-right w3-padding w3-hide-small">Forgot <a href="#">password?</a></span>
+                    </div>                 
+                
+            </div>        
+            </aside>
+        </section>            
+    
+           
+           <p>프로필</p><table id="grow" class= "w3-table w3-border w3-hoverable w3-row">
+               
+               <tr>   
+                   <th>학교명</th>
+                   <th>기억나는 일</th>
+                   <th>기간</th>
+               </tr>
+               <tr>
+                   <td>밀양중학교</td>
+                   <td>미술대회 도대회 출전</td>
+                   <td>2012~2014</td>
+               </tr>
+               <tr>
+                   <td>세종고등학교</td>
+                   <td>동아대학교 합격</td>
+                   <td>2015~2017</td>
+               </tr>
+               <tr>
+                   <td>동아대학교</td>
+                   <td>컴퓨터를 접한것</td>
+                   <td>2018~</td>
+               </tr></ul>
+   </table>            
+   </aside>
+
+</article>
+<footer  class="w3-red w3-margin-top"  style="height:200px;">
+    <div class="w3-row"></div>
+        <div class="w3-col s4  w3-container" >
+            <h5>문의,연락</h5>
+            <ul>
+              <li>전화번호: 010 5480 4794</li>
+              <li>Email: <a href="mailto:tkdduq1020@naver.com" title="Email">tkdduq1020@naver.com</a></li>
+            </ul>
+            
+        </div>
+        <div class="w3-col s4  w3-container" >
+            <h5> Follow Us</h5>
+            <a href="https://www.instagram.com/Yubstagram__/?fbclid=IwAR3pQPUnF58tGAJDJBhgPJUUUz-V0gOHOl2RwrFNcfQRrRy94IlCvEob4xQ"><i class="fa fa-instagram" style="font-size:30px;color:white"></i></a>
+         <a href="https://www.instagram.com/Yubstagram__/?fbclid=IwAR3pQPUnF58tGAJDJBhgPJUUUz-V0gOHOl2RwrFNcfQRrRy94IlCvEob4xQ"></a>
+            <br /><br/>
+           THis Site Contents is SangYeop's Copyright <br/>
+        </div> 
+    </div>
+        
+     
+     </footer>   
+</body>
+
+
+
+</html>
